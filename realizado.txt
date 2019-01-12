@@ -6,3 +6,7 @@ https://www.algaworks.com/meus-cursos/workshop-bootstrap/
   https://www.algaworks.com/aulas/992/imagem-rotativa-e-centralizacao-vertical/
 
 
+#12/01/2019
+  4.3. Criando uma barra de navegação
+  https://www.algaworks.com/aulas/994/criando-uma-barra-de-navegacao/
+

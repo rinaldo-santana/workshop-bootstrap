@@ -1,0 +1,55 @@
+body {
+    font-size: 18px;
+    background-color: #f5f5f5
+}
+
+article {
+    width: 80%;
+    margin: 20px auto;
+}
+
+article header h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+article .conteudo {
+    columns: 3;
+    column-gap: 40px;
+    text-align: justify;
+}
+
+article .conteudo p {
+    margin: 0 0 20px 0;
+}
+
+article .conteudo p:first-child:first-letter {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    article header h1 {
+        font-size: 28px;
+    }
+
+    article .conteudo {
+        columns: 1;
+    }
+
+    article .conteudo p:first-child:first-letter {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    article header h1 {
+        font-size: 28px; 
+    }
+    article .conteudo {
+        columns: 2;
+    }
+
+}

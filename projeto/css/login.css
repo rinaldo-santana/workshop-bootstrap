@@ -1,0 +1,13 @@
+body {
+    min-height: 100vh;
+    background-color: #ccc;
+    background-image: url('https://picsum.photos/g/1500/800/?random');
+}
+
+.login-form {
+    background-color: #fff;
+    height: 300px;
+
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}

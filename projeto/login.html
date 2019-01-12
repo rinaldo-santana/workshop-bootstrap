@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ptBr">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +11,58 @@
     </head>
     <body>
         <div
-            class="login-form col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4"></div>
+            class="login-form col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4"
+        >
+            <header>
+                <h1>
+                    <img
+                        class="img-responsive"
+                        src="img/watchguru.png"
+                        alt="watchguru.png"
+                    />
+                </h1>
+                <h2 class="text-center">
+                    Entre com o seu <strong>usuário</strong> e
+                    <strong>senha</strong>
+                </h2>
+            </header>
+            <form action="">
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-user"></span>
+                        </div>
+                        <input
+                            type="text"
+                            name="usuario"
+                            placeholder="Usuário"
+                            class="form-control"
+                        />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-option-horizontal"></span>
+                        </div>
+                        <input
+                            type="text"
+                            name="senha"
+                            placeholder="Senha"
+                            class="form-control"
+                        />
+                    </div>
+                </div>
+
+                <footer>
+                    <div class="checkbox pull-left">
+                        <label for="lembrar"><input type="checkbox" name="lembrar" id="lembrar">lembrar de mim</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary pull-right">Entrar</button>
+                </footer>
+            </form>
+        </div>
 
         <script src="../bootstrap/js/jquery-2.2.4.min.js"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script>

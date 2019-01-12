@@ -1,0 +1,8 @@
+Curso:  Produtividade com Bootstrap 
+https://www.algaworks.com/meus-cursos/workshop-bootstrap/
+
+#11/01/2019 
+  4.2 Imagem responsiva e formulário de login
+  https://www.algaworks.com/aulas/992/imagem-rotativa-e-centralizacao-vertical/
+
+
